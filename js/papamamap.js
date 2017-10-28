@@ -418,12 +418,12 @@ Papamamap.prototype.getPopupContent = function(feature)
         || (vacancy4 !== undefined && vacancy4 !== null)
         || (vacancy5 !== undefined && vacancy5 !== null) )
         {
-            content += '<font color="green">空きあり</font>';
+      /**      content += '<font color="green">空きあり</font>';**/
 
         } else {
-            content += '<font color="red">空きなし</font>';
+    /**        content += '<font color="red">空きなし</font>'; **/
         }
-        content += '(2/1現在)<br/>最新情報は<a href="http://www.city.nagareyama.chiba.jp/life/19/159/028025.html" target="_blank">流山市HPへ</a>';
+        content += '最新情報は<a href="http://www.city.nagareyama.chiba.jp/life/1001107/1001162/1016542.html" target="_blank">流山市HPへ</a>';
         content += '</td>';
         content += '</tr>';
     }
